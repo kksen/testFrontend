@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Персональная страница</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+	<script src=http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js></script>
+	<script src="fixmenu.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header block">
+			<img src="img/1_10.png" width="200px" alt="Логотип Гарвардского университета">
+			<h1> Персональная страница студентки Гарвардского университета</h1>
+			<h2>Милюк Анна Сергеевна</h2>
+			<div class="clearfix"></div>
+		</div>
+
+		<div class="column1 block">
+			<ul class="main-menu" id="fixmenu">
+				<li><a href="#about student">Обо мне</a></li>
+				<li><a href="#hobby">Мое хобби</a></li>
+				<li><a href="#contacts">Напишите нам</a></li>
+				<li><a href="#social">Контакты</a></li>
+			</ul>
+
+		</div>
+		
+		<div class="column2 block">
+			<h3 id="about student">Обо мне</h3>
+			<img src="img/beautiful-1867092_640.jpg" width="500px" alt="Студентка Гарвардского университета">
+			<div class="list">
+				<ul>
+					<li>Милюк Анна Сергеевна</li>
+					<li>Дата рождения: 12.01.2000</li>
+					<li>Адрес проживания на момент учебы: г.Севастополь, ул.Студенческая, 1, обжежитие корпус 3, ком.205</li>
+					<li>Гарвардский университет</li>
+					<li>Заочная форма учебы</li>
+					<li>факультет "Журналистика"</li>
+					<li>Текущий курс обучения: 2</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+		<div class="column3 block">
+			<h3 id="hobby">Хобби</h3>
+			<div class="minicontainer">
+			<div class="column4">
+				<img src="img/hobby/bicycle.svg" alt="Велопрогулки" width = "100px">
+				<h4><a class="stitle" href="#">Велопрогулки<span class="stitlesp">Люблю кататься по городу и наблюдать неспеша за происходящим. Участвую в велопробеге с друзьями каждый год.</span></a></h4>
+			</div>
+			<div class="column4">
+				<img src="img/hobby/reading.svg" alt="Чтение" width = "100px">
+				<h4><a class="stitle" href="#">Чтение<span class="stitlesp">Кроме специальной литературы люблю читать интересную художественную, особенно фантастику и дедективы</span></a></h4>
+			</div>
+			<div class="column4">
+				<img src="img/hobby/hiking.svg" alt="Путешествия" width = "100px">
+				<h4><a class="stitle" href="#">Путешествия<span class="stitlesp">При хорошей погоде и компании нравится отправляться в путешествия в поисках новых приключений</span></a></h4>
+			</div>
+			</div>
+		</div>
+		
+		<div class="column5 block">
+			<h3 id="contacts">Обратная связь</h3>
+			<form action="img/1_10.png" method="post"> 
+				<fieldset>
+					<p>
+					<label for="namefio">Имя:</label>
+					<input type="text" name="namefio" id="telephon-id">
+					</p>
+					<p>
+					<label for="telephon">Телефон:</label>
+					<input type="text" name="telephon" id="telephon-id">
+					</p>
+					<p>
+					<label for="email">e-mail:</label>
+					<input type="text" name="email" id="email-id">
+					</p>
+				</fieldset>
+				<fieldset>
+					<p>
+					<label for="comment">Сообщение:</label>	
+					<textarea name="comment" id="comment-id" cols="30" rows="10"></textarea>
+					</p>
+				</fieldset>
+				<p class="reglament">
+				<input type="checkbox" name="reglament" id="reglament-id" checked>
+				<span class="reglament">Согласие на обработку персональных данных</span>
+				</p>
+				<p class="submit">
+				<button type="submit">Отправить</button>
+				</p>
+			</form>
+		</div>
+		
+		<div class="footer block">
+			<div class="share">
+				<b id = "social">Соцсети</b>
+				<a href="https://vk.com" class="social social-vk">
+				</a>
+				<a href="https://www.facebook.com" class="social social-fb">
+				</a>
+				<a href="https://twitter.com" class="social social-tw">
+				</a>
+			</div>
+			<p id="copyright">Гарвардский университет &copy; 2019 - Все права защищены. <p/>
+		</div>
+	</div>	
+</body>
+</html>
